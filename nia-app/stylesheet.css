@@ -47,7 +47,7 @@ div[class*="-bg"] {
 	padding: 16px;
 	margin: unset;
 	background: #040404;
-	font: 14px/1.45em roboto mono, monospace;
+	font: 14px/0.75em roboto mono, monospace
 }
 
 .v3-yarn {
@@ -192,7 +192,7 @@ div[class*="v3-begoniai-"] {
 
 .v3-begonia-text figure {
 	position: absolute;
-	right: -160px;
+	right: -153px;
 	top: 480px;
 }
 
@@ -238,7 +238,7 @@ div[class*="v3-begoniai-"] {
 
 .v3-xero p {
 	width: 435px;
-	margin: 16px 0 0 192px;
+	margin: 0 0 0 192px;
 }
 
 .v3-xero p:first-of-type {

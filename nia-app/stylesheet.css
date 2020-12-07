@@ -73,7 +73,7 @@ div[class*="-bg"] {
 
 .v3-lotv {
 	display: grid;
-	grid: auto / auto auto auto;
+	grid: auto / auto 428px auto;
 	gap: 32px;
 	margin-top: -175px;
 	position: relative;

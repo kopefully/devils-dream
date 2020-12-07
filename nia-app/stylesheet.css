@@ -1,1 +1,266 @@
-.fauna-mainp-bio-wrapper {padding: 40px;}
+.v3-app {
+	height: 400px;
+	width: 849px;
+	box-sizing: border-box;
+	position: relative;
+	overflow-y: auto;
+	overflow-x: hidden;
+	font-size: 14px;
+	line-height: 1.5em;
+	display: grid;
+	grid: "." 455px "lotvgardenia" 175px "lotvgardenia" 615px "begontig" 1098px "dracxero" 865px / auto;
+	text-align: justify;
+	box-sizing: border-box;
+	padding-top: 130px;
+}
+
+.v3-app * {
+	z-index: 2;
+}
+
+.v3-app figure {
+	margin: 0;
+	padding: 0;
+}
+
+div[class*="-bg"] {
+	z-index: 1;
+	position: relative;
+}
+
+.v3-app::-webkit-scrollbar {
+	width: 7px;
+	padding-top: 26px;
+}
+
+.v3-app::-webkit-scrollbar-track {
+	background: #040404;
+}
+
+.v3-app::-webkit-scrollbar-thumb {
+	background: var(--accent2);
+	border: 3px solid #040404;
+}
+
+.v3-app blockquote {
+	white-space: pre-wrap;
+	padding: 16px;
+	margin: unset;
+	background: #040404;
+	font: 14px/1.45em roboto mono, monospace;
+}
+
+.v3-yarn {
+	width: 100%;
+	height: 490px;
+	background: url(//kopefully.github.io/devils-dream/nia-app/yarn.svg) -90px 0 /
+		119% no-repeat;
+	box-sizing: border-box;
+	padding-left: 129px;
+}
+
+.v3-yarn figure {
+	margin: 0 0 0 40px;
+	padding: 10px 0 0 8px;
+}
+
+.v3-yarn figcaption {
+	margin: 0;
+	padding: 8px 16px;
+	text-transform: uppercase; 
+	font: 13px/1em roboto mono, monospace;
+}
+
+.v3-lotv {
+	display: grid;
+	grid: auto / auto auto auto;
+	gap: 32px;
+	margin-top: -175px;
+	position: relative;
+	grid-area: 2/1/3/2;
+	height: 350px;
+}
+
+div[class*="-left"], div[class*="-right"] {
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: 0 0;
+}
+
+div[class*="v3-lotvi-"] {
+	width: 150px;
+	height: 300px;
+}
+
+.v3-lotvi-left {
+	background-image: url(//kopefully.github.io/devils-dream/nia-app/lotv-left.svg);
+	margin: 114px 0 0 10px;
+}
+
+.v3-lotvi-right {
+	background-image: url(//kopefully.github.io/devils-dream/nia-app/lotv-right.svg);
+	margin: 26px 40px 0 0;
+}
+
+.v3-gardenia {
+	grid-area: 3/1/4/2;
+	position: relative;
+}
+
+.v3-gardenia figure {
+	display: block;
+	position: absolute;
+	writing-mode: vertical-rl;
+	top: 10px;
+	right: 45px;
+}
+
+.v3-gardenia blockquote {
+	font-size: 11.5px;
+}
+
+.v3-gardenia p {
+	width: 435px; 
+	margin: 16px 0 0 192px;
+	background-clip: content-box;
+}
+
+.v3-gardenia p:first-of-type {
+	padding-top: 20px;
+}
+
+.v3-gardenia:before {
+	content: "";
+	display: block;
+	width: 220px;
+	height: 135px;
+	background: url(https://kopefully.github.io/devils-dream/nia-app/gardenia.svg) 5px 0/190px no-repeat;
+	margin: 74px auto 0;
+}
+
+.v3-lotvgardenia-bg {
+	grid-area: lotvgardenia;
+	background: url(//kopefully.github.io/devils-dream/nia-app/lotv-gardenia.svg) -90px 19px/115% no-repeat;
+	height: 790px;
+}
+
+.v3-begonia {
+	grid-area: 4/1/5/2;
+	display: grid;
+	grid: auto / 160px 435px 150px;
+	gap: 32px;
+	margin-top: -18px;
+}
+
+div[class*="v3-begoniai-"] {
+	width: 150px; 
+	height: 250px;
+}
+
+.v3-begoniai-left {
+	background-image: url(//kopefully.github.io/devils-dream/nia-app/begon-left.svg);
+	margin-left: 10px;
+	position: relative;
+}
+
+.v3-begoniai-left figure {
+	position: absolute;
+	top: -28px;
+	left: 100px;
+	width: 347.062px;
+	z-index: 5;
+}
+
+.v3-begoniai-left blockquote {
+	font-size: 11.5px;
+}
+
+.v3-begoniai-right {
+	background-image: url(//kopefully.github.io/devils-dream/nia-app/begon-right.svg);
+	margin: 0 0 0 1px;
+}
+
+.v3-begonia-text {
+	border-top: 1px solid var(--accent2);
+	width: 560px;
+	margin: 40px 0 0 -62px;
+	padding: 60px 63px 32px 62px;
+	box-sizing: border-box;
+	position: relative;
+	z-index: 1;
+}
+
+.v3-begonia-text figure {
+	position: absolute;
+	right: -160px;
+	top: 480px;
+}
+
+.v3-begonia-text blockquote {
+	font-size: 11.5px;
+}
+
+.v3-begontig-bg {
+	height: 1080px;
+	grid-area: begontig;
+	background: url(//kopefully.github.io/devils-dream/nia-app/begontig.svg) 34px 83px/88% no-repeat;
+	position: relative;
+}
+
+.v3-begontig-bg:after {
+	content: "";
+	display: block;
+	width: 403px;
+	height: 567px;
+	background: url(//kopefully.github.io/devils-dream/nia-app/tigdracula.svg) 0 0/100% no-repeat;
+	position: absolute;
+	bottom: 0px;
+	left: 23.5%;
+}
+
+.v3-dracxero-bg {
+	grid-area: dracxero;
+	background: url(https://kopefully.github.io/devils-dream/nia-app/draculaxero.svg) -105px -10px/119% no-repeat;
+	margin-top: -100px;
+	height: 600px;
+}
+
+.v3-xero {
+	grid-area: 5/1/6/2;
+	position: relative;
+}
+
+.v3-xero figure {
+	position: absolute;
+	right: 215px;
+	top: -75px;
+}
+
+.v3-xero p {
+	width: 435px;
+	margin: 16px 0 0 192px;
+}
+
+.v3-xero p:first-of-type {
+	margin-top: 100px;
+}
+
+.v3-xero p:last-of-type {
+	margin-bottom: 50px;
+}
+
+.v3-xero-centre {
+	width: 500px;
+	height: 394px;
+	background: url(https://kopefully.github.io/devils-dream/nia-app/xero.svg) 0 0/100% no-repeat;
+	margin: 0px 0 0 160px;
+	position: relative;
+	box-sizing: border-box;
+	padding-top: 202px;
+}
+
+.v3-xero-centre figure {
+	position: static;
+	width: 458.375px;
+	margin: auto;
+}
